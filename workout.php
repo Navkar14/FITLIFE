@@ -19,11 +19,11 @@
 <h1 style="text-align:center">Check Out Our Free Workout Videos !!!</h1 >
 <form class="" action="" method="post">
 
-  <select name="gender">
-  <option value="male">Male</option>
-  <option value="female">Female</option>
+  <select id="gender_select" name="gender">
+  <option id="male" value="male">Male</option>
+  <option id="female"value="female">Female</option>
 </select>
-<select class="" name="body">
+<select id="body_select" name="body">
   <option value="upper">Upper</option>
   <option value="core">Core</option>
   <option value="lower">Lower</option>
@@ -31,6 +31,11 @@
 </select>
 <!-- <iframe src="index.php" name="iframe_a"></iframe> -->
 <button type="button" onclick="window.location='index.php'" name="button">Go</button>
+<div id="wrapper"></div>
 </form>
   </body>
+  <script type="text/javasript" src="js/workout_video.js">
+
+  </script>
 </html>
+
