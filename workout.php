@@ -30,7 +30,7 @@
   <option value="total">Complete</option>
 </select>
 <!-- <iframe src="index.php" name="iframe_a"></iframe> -->
-<button type="button" onclick="window.location='index.php'" name="button">Go</button>
+<button type="button" onclick="showVideo()" name="button">Go</button>
 <div id="wrapper"></div>
 </form>
   </body>
@@ -38,4 +38,3 @@
 
   </script>
 </html>
-
